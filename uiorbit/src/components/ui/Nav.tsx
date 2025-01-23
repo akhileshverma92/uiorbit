@@ -1,14 +1,13 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Moon, Sun, Github, Menu, Sparkles, LucideChartCandlestick, } from 'lucide-react';
+import { Moon, Sun, Github,  Sparkles } from 'lucide-react';
 import { useTheme } from "next-themes";
 import Link from 'next/link';
 import { Badge } from '@/components/ui/badge';
